@@ -21,7 +21,17 @@ import EcosystemIcon from './icons/IconEcosystem.vue'
     <router-link to="/basic">basic</router-link>
   </example-item>
 
-  <ExampleItem>
+  <example-item>
+    <template #icon>
+      <DocumentationIcon />
+    </template>
+    <template #heading>Multi-tier</template>
+    An example of handling multi-tiered Sphinx markup.
+    <br />
+    <router-link to="/multitier">multi-tier</router-link>
+  </example-item>
+
+  <example-item>
     <template #icon>
       <ToolingIcon />
     </template>
@@ -32,9 +42,9 @@ import EcosystemIcon from './icons/IconEcosystem.vue'
     <br />
 
     <router-link to="/reference/main">reference</router-link>
-  </ExampleItem>
+  </example-item>
 
-  <ExampleItem>
+  <example-item>
     <template #icon>
       <EcosystemIcon />
     </template>
@@ -47,7 +57,7 @@ import EcosystemIcon from './icons/IconEcosystem.vue'
     <br />
 
     <router-link to="/offsetreference/main">reference</router-link>
-  </ExampleItem>
+  </example-item>
 
   <!-- <ExampleItem>
     <template #icon>

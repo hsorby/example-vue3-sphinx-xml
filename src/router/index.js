@@ -28,6 +28,11 @@ const router = createRouter({
       component: () => import('../views/ReferenceView.vue')
     },
     {
+      path: '/multitier/:pageName*',
+      name: 'multitier',
+      component: () => import('../views/MultiTierView.vue')
+    },
+    {
       path: '/offsetreference/main/:pageName*',
       name: 'offsetreference-main',
       component: () => import('../views/OffsetReferenceView.vue')

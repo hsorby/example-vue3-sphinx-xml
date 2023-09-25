@@ -1,0 +1,28 @@
+.. _users_solver:
+
+Simulation tool developer: Solver
+=================================
+The code generation functionality in libCellML can be used to transform CellML models into procedural code for simulation.
+This example works through that process. 
+
+.. container:: directorylist
+
+  **C++ resources**:
+
+  - pretend download
+  - another pretend download
+  - resources
+
+  **Python resources**:
+
+  - fake download
+  - resources
+      
+    - another download
+
+
+Create a placeholder for the solver
+-----------------------------------
+Interacting with procedural code means that we need a program, so the first step is to create what will soon become our solver.
+To start with, the program only reads and interprets command line arguments; the size and number of timesteps to simulate.
+This is done using a simple function, as below.

@@ -5,13 +5,14 @@ import TitlePage from './components/TitlePage.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <img alt="Vue3 Sphinx XML logo" class="logo" src="@/assets/vue3-sphinx-xml-logo.svg" width="125" height="125" />
 
     <div class="wrapper">
       <title-page msg="Vue3-Sphinx-XML" />
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/basic">Basic</RouterLink>
+        <RouterLink to="/multitier">Multi-tier</RouterLink>
         <RouterLink to="/reference">Reference</RouterLink>
         <RouterLink to="/offsetreference/main">Reference Offset</RouterLink>
         <RouterLink to="/about">About</RouterLink>
